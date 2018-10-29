@@ -2,12 +2,12 @@
 my development environment
 
 1.Java
-JAVA_HOME    D:\env\jdk1.8
-CLASSPATH    .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+JAVA_HOME   D:\env\jdk1.8
+CLASSPATH   .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
 
 2.Maven
-M2_HOME       F:\env\maven
-MAVEN_HOME    F:\env\maven
+M2_HOME     F:\env\maven
+MAVEN_HOME  F:\env\maven
 F:\env\maven\conf\settings.xml
   <localRepository>F:/env/.m2/repository</localRepository>
   ...
