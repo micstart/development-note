@@ -19,4 +19,4 @@ private static void assignWriteSmsPermissionToSystemApp(Context context,
 
 private static void assignWriteSmsPermissionToSystemUid(AppOpsManager appOps, int uid)
 ~~~
-其内部实现和https://stackoverflow.com/questions/27697282/android-kitkat-api-19-how-to-write-messages-in-sms-content-provider-without类似。
+其内部实现和https://stackoverflow.com/questions/27697282/android-kitkat-api-19-how-to-write-messages-in-sms-content-provider-without 类似。
