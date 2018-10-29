@@ -1,14 +1,14 @@
 # development-environment
 my development environment
 
-###PATH
-%JAVA_HOME%\bin;
-%M2_HOME%\bin;
-%GRADLE_HOME%\bin;
-%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\build-tools\28.0.3;
-%GROOVY_HOME%\bin;
-%Python%\;%Python%\Scripts;
-F:\env\cmder;
+###PATH<br/>
+%JAVA_HOME%\bin;<br/>
+%M2_HOME%\bin;<br/>
+%GRADLE_HOME%\bin;<br/>
+%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\build-tools\28.0.3;<br/>
+%GROOVY_HOME%\bin;<br/>
+%Python%\;%Python%\Scripts;<br/>
+F:\env\cmder;<br/>
 
 ###Java<br/>
 JAVA_HOME   F:\env\jdk1.8<br/>
@@ -43,9 +43,9 @@ android-studio\bin\idea.properties<br/>
 idea.config.path=F:/env/.AndroidStudio/config<br/>
 idea.system.path=F:/env/.AndroidStudio/system<br/>
 
-###Python<br/>
-Python    F:\env\Python35<br/>
-
 ###Groovy<br/>
 GROOVY_HOME   F:\env\groovy<br/>
+
+###Python<br/>
+Python    F:\env\Python35<br/>
 
