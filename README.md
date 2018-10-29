@@ -23,11 +23,11 @@ F:\env\maven\conf\settings.xml
 ```
 3.Gradle<br/>
 GRADLE_HOME         F:\env\gradle<br/>
-GRADLE_USER_HOME    F:\env\.gradle<br/>
+GRADLE_USER_HOME    F:\env\\.gradle<br/>
 
 4.Android<br/>
 ANDROID_HOME        F:\env\android-sdk-windows<br/>
-ANDROID_SDK_HOME    F:\env\.android<br/>
+ANDROID_SDK_HOME    F:\env\\.android<br/>
 
 5.AndroidStudio<br/>
 android-studio\bin\idea.properties<br/>
