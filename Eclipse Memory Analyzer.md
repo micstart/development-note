@@ -1,7 +1,7 @@
-1. 基础知识  
-1.1什么是Java内存泄漏？  
+### 1.基础知识  
+#### 1.1什么是Java内存泄漏？  
     Java的一个重要优点就是通过垃圾收集器(Garbage Collection，GC)自动管理内存的回收，程序员不需要通过调用函数来释放内存。当不再使用的对象无法被GC回收时即存在内存泄漏。  
-1.2Java对象引用强度  
+#### 1.2Java对象引用强度  
     强引用(Strong Reference):  
         代码之中普遍存在的，类似：“Object objectRef = new Obejct”，这种引用，只要强引用还存在，永远不会被GC清理。  
     软引用(SoftReference):  
@@ -17,24 +17,24 @@
     http://www.importnew.com/22264.html  
     https://www.ibm.com/developerworks/cn/java/l-JavaMemoryLeak/  
 
-2. Android常见内存泄漏  
-2.1静态变量  
+### 2.Android常见内存泄漏  
+#### 2.1静态变量  
     把Android组件实例赋值给静态变量，当这个静态变量在组件生命周期结束后没有清空，就导致内存泄漏。  
     例如：将Activity赋值给静态变量，导致Activity无法释放。  
-2.2单例  
+#### 2.2单例  
     单例对象中引用了具有生命周期的对象，导致其不能释放。  
-2.3非静态内部类  
+#### 2.3非静态内部类  
     非静态内部类持有外部类的引用，当外部类生命周期结束后内部类未被释放时会导致内存泄漏。  
     例如：  
         1.在Activity中创建的非静态的内部类XXHandler，其发送的消息均持有Activty的引用。  
         2.在Activity中创建的非静态的内部类XXThread，其实例持有Activty的引用。  
-2.4资源未关闭  
+#### 2.4资源未关闭  
     IO流、Cursor、Bitmap、Dialog、属性动画  
 参考资料：  
     http://allenwu.itscoder.com/oom-and-solution  
 
-3. MAT工具使用  
-3.1获取heap文件  
+### 3.MAT工具使用  
+#### 3.1获取heap文件  
     在Eclipse或Android Studio工具的Devices中，选中目标进程点击"Dump HPROF file"按钮导出hprof文件。  
     也可以通过adb命令生成hprof文件：
 ~~~
@@ -42,8 +42,7 @@
         adb pull /data/local/tmp/com.demo.memoryleak.hprof
         hprof-conv com.demo.memoryleak.hprof com.demo.memoryleak_new.hprof
 ~~~
-
-3.2分析heap文件
+#### 3.2分析heap文件
 ~~~
     OQL语句：
         SELECT * FROM [ INSTANCEOF ]	<class_name> [ WHERE <filter-expression>]
