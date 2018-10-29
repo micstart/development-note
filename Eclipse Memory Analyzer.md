@@ -76,10 +76,10 @@
 adb shell "dumpsys meminfo com.demo.memoryleak"
 adb shell "procrank | grep com.demo.memoryleak"
 ~~~
-USS	Unique Set Size         进程独占的内存  
-PSS	Proportional Set Size   PSS= USS+ 按比例包含共享库  
-RSS	Resident Set Size       SS= USS+ 包含共享库  
-VSS	Virtual Set Size        VSS= RSS+ 未分配实际物理内存  
+USS(Unique Set Size)            进程独占的内存  
+PSS(Proportional Set Size)      PSS= USS + 按比例包含共享库  
+RSS(Resident Set Size)          RSS= USS + 包含共享库  
+VSS(Virtual Set Size)           VSS= RSS + 未分配实际物理内存  
 参考资料：  
 http://gityuan.com/2016/01/02/memory-analysis-command/  
 
