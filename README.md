@@ -1,6 +1,3 @@
-# development-environment
-my development environment
-
 ### PATH<br/>
 %JAVA_HOME%\bin;<br/>
 %M2_HOME%\bin;<br/>
