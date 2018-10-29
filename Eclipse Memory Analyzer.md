@@ -3,10 +3,10 @@
     Java的一个重要优点就是通过垃圾收集器(Garbage Collection，GC)自动管理内存的回收，程序员不需要通过调用函数来释放内存。当不再使用的对象无法被GC回收时即存在内存泄漏。  
 #### 1.2Java对象引用强度  
     强引用(Strong Reference):  
-        代码之中普遍存在的，类似：“Object objectRef = new Obejct”，这种引用，只要强引用还存在，永远不会被GC清理。  
+        代码之中普遍存在的，类似：'Object objectRef = new Obejct'，这种引用，只要强引用还存在，永远不会被GC清理。  
     软引用(SoftReference):  
         用来描述一些还有用，但并非必须存在的对象，当JVM内存不足时（内存溢出之前）会被回收，如果执行GC后，还是没有足够的空间，才会抛出内存溢出异常。  
-        User user = new User();    
+        'User user = new User();'    
         SoftReference<Object> softReference  = new SoftReference<Object>(user);  
         softReference.get();  
     弱引用(WeakReference):  
@@ -76,10 +76,10 @@
 adb shell "dumpsys meminfo com.demo.memoryleak"
 adb shell "procrank | grep com.demo.memoryleak"
 ~~~
-USS(Unique Set Size)            进程独占的内存  
-PSS(Proportional Set Size)      PSS= USS + 按比例包含共享库  
-RSS(Resident Set Size)          RSS= USS + 包含共享库  
-VSS(Virtual Set Size)           VSS= RSS + 未分配实际物理内存  
+**USS(Unique Set Size)**            进程独占的内存  
+**PSS(Proportional Set Size)**      PSS= USS + 按比例包含共享库  
+**RSS(Resident Set Size)**          RSS= USS + 包含共享库  
+**VSS(Virtual Set Size)**           VSS= RSS + 未分配实际物理内存  
 参考资料：  
 http://gityuan.com/2016/01/02/memory-analysis-command/  
 
