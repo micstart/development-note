@@ -1,11 +1,20 @@
 # development-environment
 my development environment
 
-1.Java<br/>
-JAVA_HOME   D:\env\jdk1.8<br/>
+###PATH
+%JAVA_HOME%\bin;
+%M2_HOME%\bin;
+%GRADLE_HOME%\bin;
+%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\build-tools\28.0.3;
+%GROOVY_HOME%\bin;
+%Python%\;%Python%\Scripts;
+F:\env\cmder;
+
+###Java<br/>
+JAVA_HOME   F:\env\jdk1.8<br/>
 CLASSPATH   .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;<br/>
 
-2.Maven<br/>
+###Maven<br/>
 M2_HOME     F:\env\maven<br/>
 MAVEN_HOME  F:\env\maven<br/>
 F:\env\maven\conf\settings.xml
@@ -21,19 +30,22 @@ F:\env\maven\conf\settings.xml
     </mirror>
   </mirrors>
 ```
-3.Gradle<br/>
+###Gradle<br/>
 GRADLE_HOME         F:\env\gradle<br/>
 GRADLE_USER_HOME    F:\env\\.gradle<br/>
 
-4.Android<br/>
+###Android<br/>
 ANDROID_HOME        F:\env\android-sdk-windows<br/>
 ANDROID_SDK_HOME    F:\env\\.android<br/>
 
-5.AndroidStudio<br/>
+###AndroidStudio<br/>
 android-studio\bin\idea.properties<br/>
 idea.config.path=F:/env/.AndroidStudio/config<br/>
 idea.system.path=F:/env/.AndroidStudio/system<br/>
 
-6.Python<br/>
-F:\env\Python35<br/>
+###Python<br/>
+Python    F:\env\Python35<br/>
+
+###Groovy<br/>
+GROOVY_HOME   F:\env\groovy<br/>
 
