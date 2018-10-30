@@ -1,30 +1,25 @@
 # Android环境搭建
 https://source.android.com/setup/build/initializing
 
-1. 安装Java
-```
-sudo apt-get update
-sudo apt-get install openjdk-8-jdk
-```
+1. 安装Java  
+`sudo apt-get update'  
+`sudo apt-get install openjdk-8-jdk`  
 2. 安装android sdk  
 2.1 下载SDK工具包  
 2.2 查看所有可用包  
 `./sdkmanager --list --proxy=http --proxy_host=xx.xx.xx.xx --proxy_port=xxx`  
 2.2 使用命令行下载需要的库  
-```
-./sdkmanager --install "platform-tools" --proxy=http --proxy_host=xx.xx.xx.xx --proxy_port=xxx
-./sdkmanager --install "build-tools;28.0.2" --proxy=http --proxy_host=xx.xx.xx.xx --proxy_port=xxx
-./sdkmanager --install "platforms;android-27" --proxy=http --proxy_host=xx.xx.xx.xx --proxy_port=xxx
-```
+`./sdkmanager --install "platform-tools" --proxy=http --proxy_host=xx.xx.xx.xx --proxy_port=xxx`  
+`./sdkmanager --install "build-tools;28.0.2" --proxy=http --proxy_host=xx.xx.xx.xx --proxy_port=xxx`  
+`./sdkmanager --install "platforms;android-27" --proxy=http --proxy_host=xx.xx.xx.xx --proxy_port=xxx`  
 3. 设置环境变量  
-```
-sudo gedit /etc/profile
-export ANDROID_SDK_ROOT=/home/wangyao/env/android_sdk
-export PATH=$PATH:$ANDROID_SDK_ROOT/build-tools/28.0.2
-export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
-export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin
-source /etc/profile
-```
+`sudo gedit /etc/profile`  
+`export ANDROID_SDK_ROOT=/home/wangyao/env/android_sdk`  
+`export PATH=$PATH:$ANDROID_SDK_ROOT/build-tools/28.0.2`  
+`export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools`  
+`export PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin`  
+`source /etc/profile`  
+
 4. 其它  
 4.1 adb devcies no permissions (verify udev rules)  
 运行：  
