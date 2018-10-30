@@ -3,11 +3,11 @@ https://program-think.blogspot.com/2014/09/system-vm-6.html
 
 1. 安装增强功能（Guest Additions）
 
-2性能优化
-2.1设置-系统-处理器中，处理器数量设为2
-2.2设置-系统-硬件加速中，半虚拟化接口设为“KVM”
-2.3设置-显示-屏幕中，显存设为128M，勾选“启用3D加速”
-2.4设置-储存-控制器:SATA中，勾选“使用主机输入输出缓存”
+1.性能优化
+  1.设置-系统-处理器中，处理器数量设为2
+  1.设置-系统-硬件加速中，半虚拟化接口设为“KVM”
+  1.设置-显示-屏幕中，显存设为128M，勾选“启用3D加速”
+  1.设置-储存-控制器:SATA中，勾选“使用主机输入输出缓存”
 https://blog.csdn.net/shangpusp/article/details/46762491
 https://www.jianshu.com/p/77435e67980c
 
