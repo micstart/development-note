@@ -12,8 +12,8 @@ https://blog.csdn.net/shangpusp/article/details/46762491
 https://www.jianshu.com/p/77435e67980c
 
 4. 无法识别USB设备问题  
-4.1 运行regedit，删除HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Class\{36FC9E60-C465-11CF-8056-444553540000}中的UpperFilters
-4.2 删除C:\Windows\System32\drivers\usbfilter.sys
-4.3 右键安装C:\Program Files\Oracle\VirtualBox\drivers\USB\filter\VBoxUSBMon.inf
+4.1 运行regedit，删除HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Class\{36FC9E60-C465-11CF-8056-444553540000}中的UpperFilters  
+4.2 删除C:\Windows\System32\drivers\usbfilter.sys  
+4.3 右键安装C:\Program Files\Oracle\VirtualBox\drivers\USB\filter\VBoxUSBMon.inf  
 https://www.bbsmax.com/A/ZOJPGkRozv/  
-https://bytefreaks.net/windows/virtualbox-failed-to-attach-the-usb-device-to-the-virtual-machine
+https://bytefreaks.net/windows/virtualbox-failed-to-attach-the-usb-device-to-the-virtual-machine  
