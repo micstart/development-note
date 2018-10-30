@@ -1,4 +1,4 @@
-#Android环境搭建
+# Android环境搭建
 https://source.android.com/setup/build/initializing
 
 1. 安装Java
@@ -38,7 +38,7 @@ source /etc/profile
 参考：  
 https://developer.android.com/studio/run/device
 
-#CTS测试
+# CTS测试
 1. 下载并解压CTS包
 https://source.android.com/compatibility/cts/setup  
 https://source.android.com/compatibility/cts/run
