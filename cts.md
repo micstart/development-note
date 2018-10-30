@@ -42,9 +42,9 @@ https://source.android.com/compatibility/cts/setup
 https://source.android.com/compatibility/cts/run
 
 2. 执行CTS测试：  
-`./cts-tradefed`
+`./cts-tradefed`  
 运行某个模块：  
-`run cts -m CtsDevicePolicyManagerTestCases`
+`run cts -m CtsDevicePolicyManagerTestCases`  
 运行单条用例：  
-`run cts -m CtsDevicePolicyManagerTestCases -t com.android.cts.devicepolicy.ManagedProfileTest#testManagedContactsPolicies --skip-preconditions`
+`run cts -m CtsDevicePolicyManagerTestCases -t com.android.cts.devicepolicy.ManagedProfileTest#testManagedContactsPolicies --skip-preconditions`  
 
