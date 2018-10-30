@@ -1,5 +1,6 @@
-视频播放器：PotPlayer  
-音频播放器：foobar2000  
+音频播放器：网易云音乐、foobar2000  
+视频播放器：腾讯视频、PotPlayer、KMPlayer、Media Player Classic  
+图片查看：Picasa  
 图片裁剪：PicPick  
 邮件客户端：Foxmail  
 压缩软件：7-Zip  
@@ -18,3 +19,8 @@ Java反编译：Java Decompiler、Jadx
 集成开发环境：Eclipse、AndroidStudio  
 
 硬件工具：CPU-Z  
+系统清理：CCleaner  
+
+参考：  
+https://love.appinn.com/  
+https://portableapps.com/apps  
