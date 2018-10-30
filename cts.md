@@ -43,3 +43,5 @@ https://source.android.com/compatibility/cts/run
 运行单条用例：  
 `run cts -m CtsDevicePolicyManagerTestCases -t com.android.cts.devicepolicy.ManagedProfileTest#testManagedContactsPolicies --skip-preconditions`  
 
+# Windwos CTS测试  
+[ANDROID CTS V2 UNDER WINDOWS](https://scottj.idv.tw/blog/2017/05/07/android-cts-v2-under-windows/)
