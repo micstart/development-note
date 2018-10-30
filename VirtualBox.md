@@ -1,7 +1,7 @@
-主板BIOS设置中开启VT支持（需CPU支持）
+1.主板BIOS设置中开启VT支持（需CPU支持）
 https://program-think.blogspot.com/2014/09/system-vm-6.html
 
-1安装增强功能（Guest Additions）
+2.安装增强功能（Guest Additions）
 
 2性能优化
 2.1设置-系统-处理器中，处理器数量设为2
