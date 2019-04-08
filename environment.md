@@ -31,13 +31,13 @@ F:\env\maven\conf\settings.xml
 ```
 ### Gradle  
 ```
-GRADLE_HOME         F:\env\gradle<br/>
-GRADLE_USER_HOME    F:\env\.gradle<br/>
+GRADLE_HOME         F:\env\gradle
+GRADLE_USER_HOME    F:\env\.gradle
 ```
 ### Android  
 ```
-ANDROID_HOME        F:\env\android-sdk-windows<br/>
-ANDROID_SDK_HOME    F:\env\.android<br/>
+ANDROID_HOME        F:\env\android-sdk-windows
+ANDROID_SDK_HOME    F:\env\.android
 ```
 ### AndroidStudio  
 ```
