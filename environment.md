@@ -44,6 +44,14 @@ ANDROID_SDK_HOME    F:\env\.android
 android-studio\bin\idea.properties
 idea.config.path=F:/env/.AndroidStudio/config
 idea.system.path=F:/env/.AndroidStudio/system
+
+project的repositories可用阿里替代：
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        google()
+        jcenter()
+    }
 ```
 ### Groovy  
 ```
@@ -51,6 +59,6 @@ GROOVY_HOME   F:\env\groovy
 ```
 ### Python  
 ```
-Python    F:\env\Python35
+Python        F:\env\Python35
 ```
 
