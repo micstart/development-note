@@ -45,7 +45,7 @@ android-studio\bin\idea.properties
 idea.config.path=F:/env/.AndroidStudio/config
 idea.system.path=F:/env/.AndroidStudio/system
 
-project的repositories可用阿里替代：
+build.gradle的repositories可用阿里替代：
     repositories {
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
