@@ -15,8 +15,8 @@ CLASSPATH   .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
 ```
 ### Maven  
 ```
-M2_HOME     F:\env\maven<br/>
-MAVEN_HOME  F:\env\maven<br/>
+M2_HOME     F:\env\maven
+MAVEN_HOME  F:\env\maven
 F:\env\maven\conf\settings.xml
   <localRepository>F:/env/.m2/repository</localRepository>
   ...
