@@ -6,6 +6,7 @@ https://developer.android.com/studio/intro/studio-config
 Appearance:
   打开Show memory indicator
 Notifications:
+  关闭Enable system notifications，可在系统托盘中隐藏AS图标
   No popup  不显示弹出框
   Balloon   显示后自动消失
   Sticky balloon  显示后需主动关闭
