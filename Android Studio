@@ -1,8 +1,17 @@
 1.安装
+https://developer.android.com/studio/install
 
 2.配置
+https://developer.android.com/studio/intro/studio-config
+Appearance:
+  打开Show memory indicator
+Notifications:
+  No popup  不显示弹出框
+  Balloon   显示后自动消失
+  Sticky balloon  显示后需主动关闭
 
 3.使用
+
 
 4.常用插件
 Translation
