@@ -48,9 +48,9 @@ idea.system.path=F:/env/.AndroidStudio/system
 build.gradle的repositories可用阿里替代：
     repositories {
         maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
         google()
-        jcenter()
+        mavenCentral()
     }
 ```
 ### Groovy  
