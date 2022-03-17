@@ -5,6 +5,7 @@ https://developer.android.com/studio/install
 https://developer.android.com/studio/intro/studio-config
 Appearance:
   打开Show memory indicator，可显示内存占用
+  勾选Always show full path in window header可在顶部显示完整文件路径
 Notifications:
   关闭Enable system notifications，可在系统托盘中隐藏AS图标
   修改Android Gradle Upgrade Notification为No popup，以免每次打开项目后提示升级Gradle插件
@@ -14,7 +15,8 @@ Notifications:
   https://www.jetbrains.com/help/idea/settings-notifications.html
 
 3.使用
-
+控制台输出乱码问题，打开Help - Edit Custom VM Options在文件底部加上：
+-Dfile.encoding=UTF-8
 
 4.常用插件
 Translation
